@@ -1,1 +1,1 @@
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\mstaf\OneDrive\docs\Documents\BackgroundScript\dimmer.ps1"
+powershell.exe -ExecutionPolicy Bypass -File "C:PATH\TO\DIRECTORY\dimmer.ps1"
