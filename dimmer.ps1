@@ -1,7 +1,8 @@
 # Define paths
+# Line 3 specifies where the current spotlight image is, the other two are where the output files will be placed
 $lockscreenPath = "C:\ProgramData\Microsoft\Windows\SystemData\S-1-5-21-2447181992-457899513-1054615145-1001\ReadOnly\LockScreen_O"
-$outputPath = "$env:USERPROFILE\OneDrive\Pictures\Spotlight_Wallpaper.jpg"
-$dimmedPath = "$env:USERPROFILE\OneDrive\Pictures\Spotlight_Dimmed.jpg"
+$outputPath = "$env:USERPROFILE\Pictures\Spotlight_Wallpaper.jpg"
+$dimmedPath = "$env:USERPROFILE\Pictures\Spotlight_Dimmed.jpg"
 
 # Ensure the directory exists
 if (-Not (Test-Path $lockscreenPath)) {
