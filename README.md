@@ -1,2 +1,9 @@
 # auto-update-windows-wallpaper-dimmed
-Windows Spotlight is typically updated every 24 hours. However, it is for Lock screen only and there isn't any way to do this for the background wallpaper except through apps in the store. This is a script that fetches whatever Windows Spotlight is being used and updates the background when ran. There is a slight dim for visiblity and it can be modified manually.
+
+Made for Windows 10, should be compatible with Windows 11 for the most part.
+
+I create a bat file as well if someone wants to use Task Scheduler to automate this daily. However, I haven't been able to run either ps1 or bat files in a task scheduler yet. If someone does find a way please let me know.
+
+You will also need ImageMagick for windows which is here: https://imagemagick.org/script/download.php
+
+You can also modify the tint on line 23 of the powershell script. Just set the number to a different amount and play around to see what works best.
